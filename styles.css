@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* CSS Variables */
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #0652dd;
+  --secondary-color: #ea2027;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
+/* Smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: var(--transition);
+}
+
+ body {
+  font-family: "Roboto", sans-serf;
+   background-color: #F5E8C7;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.showcase{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25% 0 25% 0;
+}
+
+.our-promise{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 5% 5% 5%;
+  padding: 10% 0 10% 0;
+  background-color: #DEB6AB;
+  border-radius: 15%;
+  color: #F5E8C7;
+}
+
+.page-2 p{
+  padding: 10px;
+}
+
+.gallery-image{
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+footer{
+  margin: 25px;
+}
+.contact-info{
+  margin: 5px 5px 0 10px;
+  padding: 15px 5px 0 5px;
+  background-color: #DEB6AB;
+  border-radius: 15%;
+  color: #F5E8C7;
+}
+.contact-form{
+  margin-right: 20px;
+}
